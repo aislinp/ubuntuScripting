@@ -1,0 +1,28 @@
+# replace these names with actual names (everyone besides the main admin)
+# you should probably make backups of the /etc/shadow and /etc/passwd files
+# these comment lines will disappear when you run the python script
+#
+#
+Randy
+Willow
+Josh
+Liam
+Olivia
+Noah
+Emma
+Oliver
+Charlotte
+Elijah
+Amelia
+James
+Ava
+William
+Sophia
+Benjamin
+Isabella
+Lucas
+Mia
+Henry
+Evelyn
+Theodore
+Harper
