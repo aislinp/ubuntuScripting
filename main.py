@@ -29,3 +29,5 @@ if __name__ == '__main__':
     run = input()
     if run.lower() == 'y':
         os.system("sudo chpasswd < users.txt")
+    else:
+        exit()
