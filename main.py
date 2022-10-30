@@ -15,7 +15,7 @@ def passwordgen():
 
     return password
 
-def paswdenforcer():
+def passwdenforcer():
     os.system("sudo apt-get install libpam-cracklib")
     os.system("sudo gedit /etc/login.defs")
     os.system("sudo gedit /etc/pam.d/common-password")
@@ -36,3 +36,8 @@ if __name__ == '__main__':
         os.system("sudo chpasswd < users.txt")
     else:
         exit()
+
+    passwdenforcer()
+    print("finding .mp3s")
+    os.system("cd /home")
+    os.system('sudo find / -iname "*.mp3" -print')
