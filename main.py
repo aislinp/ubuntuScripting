@@ -15,6 +15,11 @@ def passwordgen():
 
     return password
 
+def paswdenforcer():
+    os.system("sudo apt-get install libpam-cracklib")
+    os.system("sudo gedit /etc/login.defs")
+    os.system("sudo gedit /etc/pam.d/common-password")
+
 
 if __name__ == '__main__':
     filepath = "users.txt"
